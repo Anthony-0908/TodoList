@@ -1,0 +1,3 @@
+ng g cl path-name/class-name
+
+ng g interface path-name-class-name
