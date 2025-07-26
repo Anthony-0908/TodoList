@@ -14,7 +14,4 @@ export class TodoService {
    getTodos(): Observable<{todos:TodoModels[]}> {
       return this.http.get<{todos: TodoModels[]}>(this.API);
     }
-
-
-    
 }
